@@ -38,15 +38,15 @@ const styles = StyleSheet.create({
     paginationImage: {
         width: '60%',
         height: '60%',
-        tintColor: COLORS.white
+        tintColor: COLORS.blue
     },
     paginationTextBox: {
-        width: 30,
+        width: 20,
         height: 30,
         borderRadius: 2,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: COLORS.white
+        backgroundColor: COLORS.blue
     },
     paginationText: {
         fontFamily: FONT.bold,

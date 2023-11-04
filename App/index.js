@@ -8,9 +8,9 @@ import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from "../components
 export default function Home(){
   const router = useRouter();
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.blue }}>
       <Stack.Screen options={{
-        headerStyle: {backgroundColor: COLORS.lightWhite},
+        headerStyle: {backgroundColor: COLORS.blue},
         headerShadowVisible: false,
         headerLeft: () => (
           <ScreenHeaderBtn iconUrl={icons.menu} dimensions="60%" />
